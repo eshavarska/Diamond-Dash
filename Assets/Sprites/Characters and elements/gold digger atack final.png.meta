@@ -1,7 +1,127 @@
 fileFormatVersion: 2
 guid: 733667be86fbfe44da2cd7195b388ba4
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -89875115992653263
+    second: gold digger atack final_0
+  - first:
+      213: 5392709102241023979
+    second: gold digger atack final_1
+  - first:
+      213: 7682008385036341091
+    second: gold digger atack final_2
+  - first:
+      213: -4679031182766281087
+    second: gold digger atack final_3
+  - first:
+      213: -6658587828010163459
+    second: gold digger atack final_4
+  - first:
+      213: 5184681185383107846
+    second: gold digger atack final_5
+  - first:
+      213: -5310076853915041340
+    second: gold digger atack final_6
+  - first:
+      213: -9138848467474345724
+    second: gold digger atack final_7
+  - first:
+      213: -3941059876434640393
+    second: gold digger atack final_8
+  - first:
+      213: -499351449597079310
+    second: gold digger atack final_9
+  - first:
+      213: 2223717346398592088
+    second: gold digger atack final_10
+  - first:
+      213: 1534884836387292033
+    second: gold digger atack final_11
+  - first:
+      213: -3890948565571719746
+    second: gold digger atack final_12
+  - first:
+      213: -7861139262994934889
+    second: gold digger atack final_13
+  - first:
+      213: -4103977401565049573
+    second: gold digger atack final_14
+  - first:
+      213: -7064365160640089248
+    second: gold digger atack final_15
+  - first:
+      213: 5789246719291946144
+    second: gold digger atack final_16
+  - first:
+      213: -6646769560367048060
+    second: gold digger atack final_17
+  - first:
+      213: 7247598877482305901
+    second: gold digger atack final_18
+  - first:
+      213: 6612217221562420576
+    second: gold digger atack final_19
+  - first:
+      213: 3835831204953817314
+    second: gold digger atack final_20
+  - first:
+      213: 6909976203775355488
+    second: gold digger atack final_21
+  - first:
+      213: 7912995027156278320
+    second: gold digger atack final_22
+  - first:
+      213: -443955553669881028
+    second: gold digger atack final_23
+  - first:
+      213: 3293731188357702974
+    second: gold digger atack final_24
+  - first:
+      213: -1131680857839877862
+    second: gold digger atack final_25
+  - first:
+      213: -1225850160510861653
+    second: gold digger atack final_26
+  - first:
+      213: -2837732899980170483
+    second: gold digger atack final_27
+  - first:
+      213: 8172957246814664902
+    second: gold digger atack final_28
+  - first:
+      213: 4377925867708817952
+    second: gold digger atack final_29
+  - first:
+      213: 5528918671425725101
+    second: gold digger atack final_30
+  - first:
+      213: 881998468084314653
+    second: gold digger atack final_31
+  - first:
+      213: -3072149855272325806
+    second: gold digger atack final_32
+  - first:
+      213: 7507983519676232340
+    second: gold digger atack final_33
+  - first:
+      213: -3554623123720253225
+    second: gold digger atack final_34
+  - first:
+      213: 5745862860575173014
+    second: gold digger atack final_35
+  - first:
+      213: 2567098201027568938
+    second: gold digger atack final_36
+  - first:
+      213: -3289104366628081945
+    second: gold digger atack final_37
+  - first:
+      213: -1272049506650146109
+    second: gold digger atack final_38
+  - first:
+      213: 6323011950430938017
+    second: gold digger atack final_39
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -89,7 +209,847 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: gold digger atack final_0
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 3390
+        width: 484
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1326c15ee03b0cef0800000000000000
+      internalID: -89875115992653263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold digger atack final_1
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 3394
+        width: 504
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be787105b50c6da40800000000000000
+      internalID: 5392709102241023979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold digger atack final_2
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 3390
+        width: 524
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36fc9a7dce9fb9a60800000000000000
+      internalID: 7682008385036341091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold digger atack final_3
+      rect:
+        serializedVersion: 2
+        x: 1946
+        y: 3386
+        width: 540
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18e6d3a0eedb01fb0800000000000000
+      internalID: -4679031182766281087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold digger atack final_4
+      rect:
+        serializedVersion: 2
+        x: 2606
+        y: 3382
+        width: 552
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df2e6bd26a1f793a0800000000000000
+      internalID: -6658587828010163459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold digger atack final_5
+      rect:
+        serializedVersion: 2
+        x: 3286
+        y: 3378
+        width: 564
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d49688110b3f740800000000000000
+      internalID: 5184681185383107846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold digger atack final_6
+      rect:
+        serializedVersion: 2
+        x: 3978
+        y: 3378
+        width: 576
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1ce504c31de46b0800000000000000
+      internalID: -5310076853915041340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold digger atack final_7
+      rect:
+        serializedVersion: 2
+        x: 4686
+        y: 3374
+        width: 583
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40191101db94c2180800000000000000
+      internalID: -9138848467474345724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold digger atack final_8
+      rect:
+        serializedVersion: 2
+        x: 5402
+        y: 3370
+        width: 584
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1819a4cea8e49c0800000000000000
+      internalID: -3941059876434640393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold digger atack final_9
+      rect:
+        serializedVersion: 2
+        x: 6130
+        y: 3366
+        width: 580
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f090b49082f119f0800000000000000
+      internalID: -499351449597079310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold digger atack final_10
+      rect:
+        serializedVersion: 2
+        x: 6850
+        y: 3366
+        width: 548
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c56f0152b3cde10800000000000000
+      internalID: 2223717346398592088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold digger atack final_11
+      rect:
+        serializedVersion: 2
+        x: 7534
+        y: 3366
+        width: 512
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1838ff360a10d4510800000000000000
+      internalID: 1534884836387292033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold digger atack final_12
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 2642
+        width: 472
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd28cd05e2900ac0800000000000000
+      internalID: -3890948565571719746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold digger atack final_13
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 2642
+        width: 436
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7939f4b8d7f97e290800000000000000
+      internalID: -7861139262994934889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold digger atack final_14
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 2642
+        width: 396
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d0c7d0c4ebb07c0800000000000000
+      internalID: -4103977401565049573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold digger atack final_15
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 2642
+        width: 404
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063f664a05556fd90800000000000000
+      internalID: -7064365160640089248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold digger atack final_16
+      rect:
+        serializedVersion: 2
+        x: 2422
+        y: 2630
+        width: 432
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4fd7ce739875050800000000000000
+      internalID: 5789246719291946144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold digger atack final_17
+      rect:
+        serializedVersion: 2
+        x: 3014
+        y: 2618
+        width: 464
+        height: 636
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a517a0d4ee1c3a0800000000000000
+      internalID: -6646769560367048060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold digger atack final_18
+      rect:
+        serializedVersion: 2
+        x: 3646
+        y: 2606
+        width: 504
+        height: 648
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d694ad697c4a49460800000000000000
+      internalID: 7247598877482305901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold digger atack final_19
+      rect:
+        serializedVersion: 2
+        x: 4326
+        y: 2602
+        width: 532
+        height: 656
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06dc2fca78053cb50800000000000000
+      internalID: 6612217221562420576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold digger atack final_20
+      rect:
+        serializedVersion: 2
+        x: 5014
+        y: 2614
+        width: 504
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e081a5682c9b3530800000000000000
+      internalID: 3835831204953817314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold digger atack final_21
+      rect:
+        serializedVersion: 2
+        x: 5654
+        y: 2635
+        width: 460
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06aae682fba25ef50800000000000000
+      internalID: 6909976203775355488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold digger atack final_22
+      rect:
+        serializedVersion: 2
+        x: 6222
+        y: 2658
+        width: 428
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c15176d0b90dd60800000000000000
+      internalID: 7912995027156278320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold digger atack final_23
+      rect:
+        serializedVersion: 2
+        x: 6766
+        y: 2666
+        width: 412
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33e17fa6c0c6d9f0800000000000000
+      internalID: -443955553669881028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold digger atack final_24
+      rect:
+        serializedVersion: 2
+        x: 7286
+        y: 2662
+        width: 468
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e35afab901fa5bd20800000000000000
+      internalID: 3293731188357702974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold digger atack final_25
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1890
+        width: 496
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a11485571467b40f0800000000000000
+      internalID: -1131680857839877862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold digger atack final_26
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 1882
+        width: 520
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baef4ea16c7ecfee0800000000000000
+      internalID: -1225850160510861653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold digger atack final_27
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 1874
+        width: 535
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b2e3166f85e98d0800000000000000
+      internalID: -2837732899980170483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold digger atack final_28
+      rect:
+        serializedVersion: 2
+        x: 1994
+        y: 1866
+        width: 532
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c8b7d4505d2c6170800000000000000
+      internalID: 8172957246814664902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold digger atack final_29
+      rect:
+        serializedVersion: 2
+        x: 2654
+        y: 1858
+        width: 536
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02227c5a16481cc30800000000000000
+      internalID: 4377925867708817952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold digger atack final_30
+      rect:
+        serializedVersion: 2
+        x: 3314
+        y: 1862
+        width: 532
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2ea5afc3aaabc40800000000000000
+      internalID: 5528918671425725101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold digger atack final_31
+      rect:
+        serializedVersion: 2
+        x: 3963
+        y: 1866
+        width: 527
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d12ba960fec7d3c00800000000000000
+      internalID: 881998468084314653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold digger atack final_32
+      rect:
+        serializedVersion: 2
+        x: 4610
+        y: 1870
+        width: 520
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25da9bbcbf78d55d0800000000000000
+      internalID: -3072149855272325806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold digger atack final_33
+      rect:
+        serializedVersion: 2
+        x: 5242
+        y: 1874
+        width: 520
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492f9cd6b37b13860800000000000000
+      internalID: 7507983519676232340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold digger atack final_34
+      rect:
+        serializedVersion: 2
+        x: 5870
+        y: 1878
+        width: 515
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0d3482a117baec0800000000000000
+      internalID: -3554623123720253225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold digger atack final_35
+      rect:
+        serializedVersion: 2
+        x: 6494
+        y: 1882
+        width: 508
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69961bc24d76dbf40800000000000000
+      internalID: 5745862860575173014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold digger atack final_36
+      rect:
+        serializedVersion: 2
+        x: 7110
+        y: 1886
+        width: 500
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25eac7763a20a320800000000000000
+      internalID: 2567098201027568938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold digger atack final_37
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1147
+        width: 496
+        height: 607
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee62f54101ca52d0800000000000000
+      internalID: -3289104366628081945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold digger atack final_38
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 1150
+        width: 492
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca386b96b5c85ee0800000000000000
+      internalID: -1272049506650146109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold digger atack final_39
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 1154
+        width: 484
+        height: 607
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a36cff3ed9dfb750800000000000000
+      internalID: 6323011950430938017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

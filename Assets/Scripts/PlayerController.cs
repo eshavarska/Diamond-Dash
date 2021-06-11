@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
 {
     public Tilemap tiles;
     public SpriteResolver spriteResolver;
+    public GameObject Diamonds;
 
     public Vector3Int location;
 
@@ -36,6 +37,10 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (Diamonds.transform.childCount <= 0)
+        {
+            ScreenManager.Win();
+        }
 
         if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W))
         {

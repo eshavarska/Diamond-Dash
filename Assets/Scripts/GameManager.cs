@@ -9,6 +9,9 @@ public class GameManager : MonoBehaviour
     }
     public static GameManager Instance { get; private set; }
     public static GenderName Gender { get; set; }
+    public static int CurrentLevel { get; set; }
+
+    public static int[] HighScores;
 
     private void Awake()
     {
@@ -27,7 +30,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         Gender = GenderName.Boy;
+        HighScores = new int[8];
     }
-
 
 }

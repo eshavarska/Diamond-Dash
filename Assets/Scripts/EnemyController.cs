@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
 using TMPro;
 
 public class EnemyController : MonoBehaviour
@@ -9,8 +8,9 @@ public class EnemyController : MonoBehaviour
     public GameObject gameOverText;
 
     protected float speed = 0.03f;
-    public Vector2 dest, prevDest;
+    public Vector2 dest;
     protected Vector2 up, down, left, right;
+    private Vector2 currentPos, lastPos;
 
     List<Vector2> directions = new List<Vector2>();
     System.Random randomDirection = new System.Random();
@@ -28,6 +28,7 @@ public class EnemyController : MonoBehaviour
         directions.Add(right);
 
         dest = left;
+        currentPos = transform.position;
     }
 
     // Update is called once per frame
@@ -36,33 +37,53 @@ public class EnemyController : MonoBehaviour
         // Move towards one end
         Vector2 p = Vector2.MoveTowards(transform.position, dest, speed);
         GetComponent<Rigidbody2D>().MovePosition(p);
+
+        lastPos = currentPos;
+        currentPos = transform.position;
+
+        if (currentPos == lastPos)
+        {
+            dest = chooseDestination();
+        }
     }
 
 
     //Function used to eat balls back
     void OnCollisionEnter2D(Collision2D other)
     {
-        prevDest = dest;
-
         if (other.gameObject.tag == "Ground")
         {
-            int directionChoice = randomDirection.Next(0, 4);
-            //Debug.Log(directionChoice);
-
-            while (!valid(directions[directionChoice]))
-            {
-                directionChoice = randomDirection.Next(0, 4);
-                //Debug.Log(directionChoice);
-            }
-
-            dest = (Vector2)transform.position + directions[directionChoice];
+            dest = chooseDestination();
         }
-
-        if(other.gameObject.tag == "Player")
+        else if(other.gameObject.tag == "Player")
         {
             Debug.Log("hit player => player died");
             gameOverText.GetComponent<TextMeshProUGUI>().enabled = true;
+            PlayerController.Money = 0;
+
+            other.gameObject.GetComponent<Animator>().SetTrigger("dies");
+            other.gameObject.GetComponent<PlayerController>().enabled = false;
+            StartCoroutine(
+                        loseGame());
         }
+        else if (other.gameObject.tag == "Spider")
+        {
+            Physics2D.IgnoreCollision(other.gameObject.GetComponent<Collider2D>(), GetComponent<Collider2D>());
+        }
+    }
+
+    Vector2 chooseDestination()
+    {
+        int directionChoice = randomDirection.Next(0, 4);
+        //Debug.Log(directionChoice);
+
+        while (!valid(directions[directionChoice]))
+        {
+            directionChoice = randomDirection.Next(0, 4);
+            //Debug.Log(directionChoice);
+        }
+
+         return (Vector2)transform.position + directions[directionChoice];
     }
 
     bool valid(Vector2 dir)
@@ -85,5 +106,11 @@ public class EnemyController : MonoBehaviour
         {
             return true;
         }
+    }
+
+    IEnumerator loseGame()
+    {
+        yield return new WaitForSeconds(3);
+        ScreenManager.GameOver();
     }
 }
