@@ -5,7 +5,7 @@ using TMPro;
 
 public class EnemyController : MonoBehaviour
 {
-    public GameObject gameOverText;
+    private GameObject gameOverText;
 
     protected float speed = 0.03f;
     public Vector2 dest;
@@ -29,6 +29,8 @@ public class EnemyController : MonoBehaviour
 
         dest = left;
         currentPos = transform.position;
+
+        gameOverText = GameObject.Find("GameOver");
     }
 
     // Update is called once per frame
@@ -48,7 +50,6 @@ public class EnemyController : MonoBehaviour
     }
 
 
-    //Function used to eat balls back
     void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.tag == "Ground")
@@ -59,7 +60,6 @@ public class EnemyController : MonoBehaviour
         {
             Debug.Log("hit player => player died");
             gameOverText.GetComponent<TextMeshProUGUI>().enabled = true;
-            PlayerController.Money = 0;
 
             other.gameObject.GetComponent<Animator>().SetTrigger("dies");
             other.gameObject.GetComponent<PlayerController>().enabled = false;

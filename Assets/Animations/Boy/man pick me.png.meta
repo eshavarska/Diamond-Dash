@@ -1,0 +1,576 @@
+fileFormatVersion: 2
+guid: b37d56befdde0fe41b2c334b020a0ebe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: pick me0001
+  - first:
+      213: 21300002
+    second: pick me0002
+  - first:
+      213: 21300004
+    second: pick me0003
+  - first:
+      213: 21300006
+    second: pick me0004
+  - first:
+      213: 21300008
+    second: pick me0005
+  - first:
+      213: 21300010
+    second: pick me0006
+  - first:
+      213: 21300012
+    second: pick me0007
+  - first:
+      213: 21300014
+    second: pick me0008
+  - first:
+      213: 21300016
+    second: pick me0009
+  - first:
+      213: 21300018
+    second: pick me0010
+  - first:
+      213: 21300020
+    second: pick me0011
+  - first:
+      213: 21300022
+    second: pick me0012
+  - first:
+      213: 21300024
+    second: pick me0013
+  - first:
+      213: 21300026
+    second: pick me0014
+  - first:
+      213: 21300028
+    second: pick me0015
+  - first:
+      213: 21300030
+    second: pick me0016
+  - first:
+      213: 21300032
+    second: pick me0017
+  - first:
+      213: 21300034
+    second: pick me0018
+  - first:
+      213: 21300036
+    second: pick me0019
+  - first:
+      213: 21300038
+    second: pick me0020
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 1
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pick me0001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3496
+        width: 481
+        height: 599
+      alignment: 9
+      pivot: {x: 0.504158, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fc5cc8d3a3fae14c813f8484a1b68a1
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pick me0002
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 3497
+        width: 497
+        height: 598
+      alignment: 9
+      pivot: {x: 0.4919517, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf518757c402c4c46b61ca6a9d296483
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pick me0003
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1719
+        width: 511
+        height: 597
+      alignment: 9
+      pivot: {x: 0.48238748, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c13bb1e370ce744c97b87ca37d38e47
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pick me0004
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1121
+        width: 521
+        height: 596
+      alignment: 9
+      pivot: {x: 0.47696736, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 357203aad06e9264390b2b337f5c0a99
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pick me0005
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 1123
+        width: 529
+        height: 594
+      alignment: 9
+      pivot: {x: 0.47353497, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f9254dca6168da429a18e52b82f0a07
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pick me0006
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 526
+        width: 533
+        height: 593
+      alignment: 9
+      pivot: {x: 0.47373357, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 045bdf334acad074291df98adbc8db65
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pick me0007
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 527
+        width: 531
+        height: 592
+      alignment: 9
+      pivot: {x: 0.47928438, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b27a58276a41ead4395f5d27e8210792
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pick me0008
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1127
+        width: 526
+        height: 590
+      alignment: 9
+      pivot: {x: 0.4876426, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75ff815810516564ea01b21ea9af1c59
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pick me0009
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 1727
+        width: 519
+        height: 589
+      alignment: 9
+      pivot: {x: 0.49807322, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a5db77aa6b2f144fb487468ed342f9e
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pick me0010
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1728
+        width: 509
+        height: 588
+      alignment: 9
+      pivot: {x: 0.5098232, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdf983fa4b3e0624d9734cee02115cc1
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pick me0011
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 2318
+        width: 500
+        height: 587
+      alignment: 9
+      pivot: {x: 0.523, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fad386dd2d8d3342ac0afe5e8602b4f
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pick me0012
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 2907
+        width: 500
+        height: 587
+      alignment: 9
+      pivot: {x: 0.523, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfa0c5deeab5042498f897221d6eec0b
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pick me0013
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 3508
+        width: 500
+        height: 587
+      alignment: 9
+      pivot: {x: 0.523, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f18e39a3390ebc46bcc0ca38b4136f8
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pick me0014
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 3508
+        width: 500
+        height: 587
+      alignment: 9
+      pivot: {x: 0.523, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60578e1b04621a6448bd893b2a9dd5f9
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pick me0015
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2907
+        width: 500
+        height: 587
+      alignment: 9
+      pivot: {x: 0.523, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65c945cdc6810b245911a43758857530
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pick me0016
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 2907
+        width: 500
+        height: 587
+      alignment: 9
+      pivot: {x: 0.523, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f444a62f6aed2ee4d9f7ee628e6579c3
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pick me0017
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2318
+        width: 500
+        height: 587
+      alignment: 9
+      pivot: {x: 0.523, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8ccb7628876e3a41b0dee2e19e492f0
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pick me0018
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 2318
+        width: 500
+        height: 587
+      alignment: 9
+      pivot: {x: 0.523, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 283371abe0528b14eb9552e19f402927
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pick me0019
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 2907
+        width: 500
+        height: 587
+      alignment: 9
+      pivot: {x: 0.523, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68030a20622d72141a9460d6f0db17ff
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pick me0020
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 2318
+        width: 500
+        height: 587
+      alignment: 9
+      pivot: {x: 0.523, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89db62f0ae7a3ba408941524b1afc9bb
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

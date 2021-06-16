@@ -36,4 +36,9 @@ public class ScreenManager : MonoBehaviour
     {
         SceneManager.LoadScene("Level_" + GameManager.CurrentLevel.ToString());
     }
+
+    public static void HighScores()
+    {
+        SceneManager.LoadScene("HighScores");
+    }
 }

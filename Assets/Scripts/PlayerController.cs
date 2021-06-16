@@ -1,26 +1,24 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Experimental.U2D.Animation;
-using UnityEngine.Tilemaps;
+
 
 public class PlayerController : MonoBehaviour
 {
-    public Tilemap tiles;
     public SpriteResolver spriteResolver;
     public GameObject Diamonds;
 
-    public Vector3Int location;
+    public RuntimeAnimatorController GirlAnimator;
+    public RuntimeAnimatorController BoyAnimator;
 
     private float speed = 3f;
     private Vector2 dest = Vector2.zero;
     private Vector2 up = new Vector2(0, 0.3f);
     private Vector2 right = new Vector2(0.3f, 0);
-    private Vector2 dir = Vector2.zero;
+    private Vector2 currentPos, lastPos;
 
     private System.Random rand;
 
-    private static int money = 0;
+    private static int money;
     public static int Money
     {
         get { return money; }
@@ -30,8 +28,17 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
+        money = 0;
         dest = transform.position;
+        currentPos = transform.position;
+
+        if (GameManager.Gender == GameManager.GenderName.Girl)
+            gameObject.GetComponent<Animator>().runtimeAnimatorController = GirlAnimator;
+        else 
+            gameObject.GetComponent<Animator>().runtimeAnimatorController = BoyAnimator;
+
         spriteResolver.SetCategoryAndLabel("Body", GameManager.Gender.ToString());
+
         rand = new System.Random();
     }
 
@@ -45,7 +52,6 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W))
         {
             dest = (Vector2)transform.position + up;
-            dir = dest + new Vector2(0, 0.2f) - (Vector2)transform.position;
         } 
         if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
         {
@@ -54,12 +60,10 @@ public class PlayerController : MonoBehaviour
                 GetComponent<SpriteRenderer>().flipX = false;
             }
             dest = (Vector2)transform.position + right;
-            dir = dest - (Vector2)transform.position;
         }           
         if (Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S))
         {
             dest = (Vector2)transform.position - up;
-            dir = dest - new Vector2(0, 0.2f) - (Vector2)transform.position;
         }
             
         if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
@@ -69,44 +73,30 @@ public class PlayerController : MonoBehaviour
                 GetComponent<SpriteRenderer>().flipX = true;
             }
             dest = (Vector2)transform.position - right;
-            dir = dest - (Vector2)transform.position;
-        }
-           
-
-
-        if (Input.GetKey(KeyCode.Space))
-        {
-            Dig(dir);
-            GetComponent<Animator>().SetTrigger("dig");
         }
 
-        if((Vector2)transform.position != dest)
+       
+
+        if ((Vector2)transform.position != dest)
         {
             Move();
-            GetComponent<Animator>().SetBool("walk", true);
+        }
+
+        lastPos = currentPos;
+        currentPos = transform.position;
+
+        if (currentPos == lastPos)
+        {
+            GetComponent<Animator>().SetBool("walk", false);
         }
         else
         {
-            GetComponent<Animator>().SetBool("walk", false);
+            GetComponent<Animator>().SetBool("walk", true);
         }
 
        
     }
-
-    protected void Dig(Vector2 dir)
-    {
-        Vector2 pos = transform.position;
-        RaycastHit2D hit = Physics2D.Linecast(pos + dir, pos);
-        if (hit.collider != null)
-        {
-            if (hit.collider.tag == "Ground")
-            {
-                location = tiles.WorldToCell(pos + dir);
-                tiles.SetTile(location, null);
-            }
-        }
-
-    }
+    
 
     public virtual void Move()
     {
