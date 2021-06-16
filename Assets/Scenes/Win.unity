@@ -1590,7 +1590,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 5980475643448497563, guid: 4a480dfa5e1bfc34abe8518bacd23c9a, type: 3}
         m_TargetAssemblyTypeName: ScreenManager, Assembly-CSharp
-        m_MethodName: LastLevel
+        m_MethodName: LoadLevel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

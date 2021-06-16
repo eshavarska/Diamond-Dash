@@ -201,9 +201,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ScreenManager, Assembly-CSharp
-        m_MethodName: Level1
+      - m_Target: {fileID: 4738162612046610185}
+        m_TargetAssemblyTypeName: SetLevelInGM, Assembly-CSharp
+        m_MethodName: SetLevel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -213,9 +213,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 4738162612046610185}
-        m_TargetAssemblyTypeName: SetLevelInGM, Assembly-CSharp
-        m_MethodName: SetLevel
+      - m_Target: {fileID: 5980475643448497563, guid: 4a480dfa5e1bfc34abe8518bacd23c9a, type: 3}
+        m_TargetAssemblyTypeName: ScreenManager, Assembly-CSharp
+        m_MethodName: LoadLevel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

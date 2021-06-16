@@ -3,13 +3,9 @@ using UnityEngine.SceneManagement;
 
 public class ScreenManager : MonoBehaviour
 {
-    public static void Level1()
+    public void LoadLevel()
     {
-        SceneManager.LoadScene("Level_1");
-    }  
-    public static void Level2()
-    {
-        SceneManager.LoadScene("Level_2");
+        SceneManager.LoadScene("Level_" + GameManager.CurrentLevel.ToString());
     }
 
     public static void MainMenuScene()
@@ -32,10 +28,6 @@ public class ScreenManager : MonoBehaviour
        SceneManager.LoadScene("GameOver");
     }
 
-    public static void LastLevel()
-    {
-        SceneManager.LoadScene("Level_" + GameManager.CurrentLevel.ToString());
-    }
 
     public static void HighScores()
     {
